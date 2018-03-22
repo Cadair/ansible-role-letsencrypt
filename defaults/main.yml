@@ -82,6 +82,7 @@ le_dehydrated_pkcs12_password: ""
 # deployment flag [false,true,'force']: use in ansible-playbook to switch between setup/certificate [false] and deploy [true] task in this role
 # NOTE: When you optionally wish to force all certificates to be deployed to all webservers use ['force'], otherwise [true] only signed/renewed certificates will deploy.
 le_deploy: false
+le_deploy2_localhost: true
 # supported webservers for certificate deployment
 le_deploy2_webservers:
   - "nginx"

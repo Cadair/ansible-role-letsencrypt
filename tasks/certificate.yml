@@ -33,3 +33,5 @@
 
 - name: "CERTIFICATE {{ le_certificate_loop.domain }} : save certificate and it deployment state on LOCALHOST:"
   include: "deploy2_localhost.yml"
+  when:
+    - le_deploy2_localhost
